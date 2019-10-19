@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Decode PINCODE</title>
+</head>
+<body>
+    <div class="main">
+        <div class="input">
+            <h1 class="heading">Decode the PINCODE</h1>
+            <h3>of any Indian city</h3>
+            <input type="number" name="" id="pincode" placeholder="Enter the pincode here">
+            <button id="get_res">Get Results</button>
+        </div>
+        <div class="results invisible" id="results">
+            <h3>Block : <span id="block"></span></h3>
+            <h3>District : <span id="district"></span> </h3>
+            <h3>Region : <span id="region"></span></h3>
+            <h3>State : <span id="state"></span></h3>
+        </div>
+        <div class="error invisible" id="error">
+            <h3 style="text-align: center;">#404 NOT FOUND :) <br>
+                Requested PINCODE is wrong  or <br> doesnot exist
+            </h3>
+        </div>
+        <div class="footer">
+            <h3>&copy;Guruprasad Veerannavaru</h3>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
